@@ -7,7 +7,7 @@
 // ````
 // the express var simplifies accessing the static() method.
 var express = require('express');
-    app     = express();
+var app     = express();
 var server  = require('http').createServer(app),
     io      = require('socket.io').listen(server);
 
