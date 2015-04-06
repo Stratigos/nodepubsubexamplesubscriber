@@ -6,7 +6,7 @@
 // allthough the following expressions can be combined into one expression
 //  as follows:
 // ````
-// var app = require('express')(); // immediately evoke express();
+//     var app = require('express')(); // immediately evoke express();
 // ````
 // the express var simplifies accessing the static() method.
 var express   = require('express');
